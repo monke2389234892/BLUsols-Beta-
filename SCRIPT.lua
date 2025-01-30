@@ -19,7 +19,7 @@ local tablevar = {"[ NULL ]",
 	"[ STARFALL ]",
 }
 
-local plr = game.Players.shiddyFarts9 -------- TYPE YOUR NAME AS ITS FORMATTED IN YOUR ROBLOX
+local plr = game.Players.LocalPlayer
 local Main = plr.PlayerGui.MainInterface
 
 local instanceDAYORNIGHT = nil
