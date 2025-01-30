@@ -27,7 +27,6 @@ local BIOMEINST = nil
 sound.Volume = 9
 sound.Parent = Main 
 sound.SoundId = "rbxassetid://12221984"
-sound:Play()
 
 for i,v in pairs(Main:GetDescendants()) do
 	print(v)
