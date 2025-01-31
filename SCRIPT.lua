@@ -6,7 +6,7 @@ local sound = Instance.new("Sound")
 
 
 local PlaceId = 15532962292
-local LocalPlayer = game:GetService("Players").LocalPlayer
+local LocalPlayer = game:GetService("Players").LocalPlayer.UserID
 local tablevar = {"[ NULL ]",
 	"[ CORRUPTION ]",
 	"[ HELL ]",
