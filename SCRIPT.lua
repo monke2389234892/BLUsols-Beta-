@@ -5,10 +5,7 @@ local TeleportService = game:GetService("TeleportService")
 local sound = Instance.new("Sound")
 
 
-local PlaceId = game.PlaceId
-
-local JobId = game.JobId
-
+local PlaceId = 15532962292
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local tablevar = {"[ NULL ]",
 	"[ CORRUPTION ]",
