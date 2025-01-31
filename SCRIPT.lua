@@ -54,13 +54,13 @@ wait(.5)
 if table.find(tablevar,BIOMEINST.Text) then
 
 
-	TeleportService:TeleportToPlaceInstance(PlaceId, JobId, LocalPlayer)
+	TeleportService:TeleportToPlaceInstance(PlaceId, LocalPlayer)
 end
 
 BIOMEINST.Changed:Connect(function()
 	wait(.5)
 	if table.find(tablevar,BIOMEINST.Text) then
-		TeleportService:TeleportToPlaceInstance(PlaceId, JobId, LocalPlayer)
+		TeleportService:TeleportToPlaceInstance(PlaceId, LocalPlayer)
 	elseif BIOMEINST.Text ~= "[ NORMAL ]" then
 		sound:Play()
 		
