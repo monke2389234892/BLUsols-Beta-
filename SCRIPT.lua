@@ -1,4 +1,4 @@
-wait(10)
+wait(5)
 local TeleportService = game:GetService("TeleportService")
 
 
