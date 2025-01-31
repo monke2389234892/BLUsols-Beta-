@@ -1,7 +1,10 @@
+wait(10)
 local TeleportService = game:GetService("TeleportService")
+
+
 local sound = Instance.new("Sound")
 
-wait(1)
+
 local PlaceId = game.PlaceId
 
 local JobId = game.JobId
