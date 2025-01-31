@@ -51,15 +51,19 @@ for i,v in pairs(instanceDAYORNIGHT:GetDescendants()) do
 end
 wait(.5)
 if table.find(tablevar,BIOMEINST.Text) then
-
+plr:Kick()
 
 end
 
 BIOMEINST.Changed:Connect(function()
-
-end
-	elseif BIOMEINST.Text ~= "[ NORMAL ]" then
-		sound:Play()
+	if table.find(tablevar,BIOMEINST.Text) then
+		plr:Kick()
 		
-	end
+		
+		
+
+elseif BIOMEINST.Text ~= "[ NORMAL ]" then
+	sound:Play()
+
+   end
 end)
